@@ -1,0 +1,23 @@
+h1{/* display block "h1,p,div e etc..."*/
+    background-color: brown;
+    display: block;
+    
+}
+
+p{
+    background-color: burlywood;
+}
+span{ /* span é inline(não funciona o display) oque funciona é o "padding"*/
+    background-color: cadetblue;
+}
+.span2{ /* herdou do span 1, por isso o display funcionou*/
+    background-color: coral;
+    
+}
+
+a{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background-color: darkolivegreen;
+}
